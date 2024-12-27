@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/quiz.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="footer"></div>
+    <form id="quizform">
+        <h1>Quiz Management Page</h1>
+        <input type="text" id="quizquestions" placeholder="Enter New Quiz Questions">
+        <input type="text" id="option1" placeholder="Enter Option A">
+        <input type="text" id="option2" placeholder="Enter Option B">
+        <input type="text" id="option3" placeholder="Enter Option C">
+        <input type="text" id="option4" placeholder="Enter Option D">
+        <select id="select">
+            <option value="">Select Correct Option</option>
+            <option value="a">A</option>
+            <option value="a">B</option>    
+            <option value="a">C</option>
+            <option value="a">D</option>
+        </select>
+
+        <!-- <input type="text" id="status" placeholder="Enter Status"> -->
+        <input type="submit" id="addnewbtn" value="Add New Quiz ">
+         <!-- <button id="addnewbtn">AddNew Quiz</button> -->
+    </form>
+    <div id="contaier"></div>
+    
+</body>
+<script src="./scripts/navbar.js" type="module"></script>
+<script src="./scripts/footer.js" type="module"></script>
+<script src="./scripts/quiz.js" type="module"></script>
+</html>
